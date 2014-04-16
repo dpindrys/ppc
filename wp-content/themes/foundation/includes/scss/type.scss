@@ -1,0 +1,38 @@
+h1 {
+	font-size: 2em;
+		@media #{$medium-up} {
+		    font-size: 3em;
+  }
+		@media #{$large-up} {
+		    font-size: 4em;
+  }
+}
+  .light {
+	font-weight: 100;
+	letter-spacing: .05em;
+}
+
+.hero-type {
+	color: #fff89c;
+  font-family: "adelle-sans";
+  font-weight: bold;
+  letter-spacing: .04em;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8); ;
+}
+
+.abril {
+	font-family: "abril-text";
+	font-style: italic;
+	color: #396967;
+	font-weight: 100;
+
+}
+
+.abril a {
+	color: rgba(49, 91, 89, .6);
+	text-decoration: underline;
+}
+
+.abril a:hover {
+	color: rgba(49, 91, 89, .9);
+}

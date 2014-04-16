@@ -1,0 +1,253 @@
+/* Global config */
+@import "config/variables"; // Your custom variables
+@import "config/colors"; // Your custom color scheme
+@import "config/settings"; // Default settings file. Uncomment each setting you need to change
+
+/* Foundation 5 */
+@import "foundation"; // Foundation 5 by Zurb
+
+/* Site structure */
+@import "site/structure"; // Your site structure
+
+@import "type.scss"; // Type classes
+
+
+input[type="submit"] {
+	background-color: blue;
+	width: auto;
+	border: 0;
+	padding: 2em;
+	color: white;
+	font-size: 1em;
+}
+
+
+.product-sub {
+	font-weight: 200;
+	letter-spacing: .1em;
+	border-top: dotted 1px black;
+	padding: 1em;
+	margin-bottom: 0;
+}
+
+.product-sub-sub {
+	background-color: #eee;
+	padding-left: 2em;
+	color: black;
+}
+
+
+.home-hero {
+	background-attachment: fixed;
+	background-image: url('../assets/home-hero.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 100%;
+	height: 15em;
+	background-attachment: fixed;
+	display: block !important; 
+		@media #{$xlarge-up} {
+		    height: 25em;
+		    float: none;
+		    background-size: contain;
+  }
+}
+.hero-interior {
+	padding-top: 5%;
+}
+
+.hero-footer {
+	background-color: #7ddbd3;
+	height: 4em;
+}
+
+
+
+.front-field {
+	padding: 0 1em 1em 1em;
+	position: relative;
+	border: 3px solid white;
+	text-align: center;
+	margin: 1em;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, .2);
+	margin-bottom: 2em;
+	height: 18em;
+}
+
+.front-field:hover {
+	background-color: rgba(255, 255, 255, .4);
+}
+
+.front-field p {
+	color: #555;
+}
+
+.about-button, .projects-button, .vendors-button img {
+	position: relative;
+	text-align: center;
+	margin-top: -2em;
+	z-index: 9999;
+	padding: 0 0 1em 0;
+}
+
+
+.small-thick {
+	width: 40%;
+	border-top: 3px solid black;
+	margin: 1em auto;
+}
+
+.white {
+	background-color: white;
+}
+
+.black {
+	background-color: black;
+}
+
+
+.content-fill {
+	height: 90em;
+}
+
+.row.interior {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.row.brand {
+	background-color: #7ddbd3;
+}
+
+.bold {
+	font-weight: bold;
+}
+.row {
+	margin: 0;
+}
+.row.full-width {
+    max-width: 100%;
+}
+
+
+.search-bar {
+	background-color: #7ddbd3;
+	padding: .2em;
+	height: 4em;
+	margin: 0 0 0 0;
+	clear: both;
+}
+
+
+.contain-to-grid {
+	background-color: #ddd;
+	min-height: 100%;
+}
+
+.contain-to-grid .top-bar {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    margin-top: 2em; }
+
+.side-nav {
+  border-color: #ddd;
+  border-style: dotted;
+  border-width: 0 0 0 1px;
+  }
+  
+
+ .top-bar-section li:not(.has-form) a:not(.button) {
+ 	font-weight: bold;
+ 	color: white;
+ 	font-size: .95em;
+  	background-color: black;
+  	margin-bottom: 0;
+  	font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  	font-weight: 500;
+
+  }
+.side-nav li.active > a:first-child:not(.button) {
+	background-color: red;
+	color: white;
+	font-weight: normal;
+
+}
+
+.side-nav li:hover {
+	background-color: #eee;
+	color: white;
+	font-weight: normal;
+}
+
+.side-nav li a:not(.button) {
+	padding: .5rem;
+}
+
+
+.logo {
+   float: left;
+    width: 300px;
+    margin-top: .5em;
+    z-index: 999;
+}
+
+.nav-wrap {
+	z-index: 1;
+	vertical-align: bottom;
+	margin-left: 300px;
+
+}
+
+.logo img {
+	vertical-align: bottom;
+	margin-bottom: -4.2em;
+}
+
+.logo-mobile {
+	width: 100%;
+}
+
+.panel {
+	background: white;
+}
+
+.vendor-cell {
+	text-align: center;
+}
+
+.product-logo {
+	width: 8em;
+	text-align: left;
+}
+
+
+table {
+	width: 100%;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.contact-button {
+	background-color: #fff;
+}
+
+.nomargin {
+	margin: 0;
+}
+
+.topmargin1 {
+	margin-top: 1em;
+}
+
+.toppadding1 {
+	padding-top: 1em;
+}
+
+table tr th, table tr td {
+	border-bottom: 1px dotted #ddd;
+}
+
