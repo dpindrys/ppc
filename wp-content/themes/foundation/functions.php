@@ -37,7 +37,7 @@ add_filter( 'cmb_meta_boxes', 'cmb_sample_metaboxes' );
 function cmb_sample_metaboxes( array $meta_boxes ) {
 
     $meta_boxes[] = array(
-        'title' => 'CMB Test - all fields',
+        'title' => 'Vendor name',
         'pages' => 'page',
         'show_on' => array( 'id' => array( 1 ) ),
         'context'    => 'normal',
@@ -47,5 +47,7 @@ function cmb_sample_metaboxes( array $meta_boxes ) {
 
     return $meta_boxes; 
 }
+
+
 
 ?>

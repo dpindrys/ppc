@@ -4,8 +4,12 @@ Template Name: Events Page
 */
 get_header(); ?>
 <div class="row interior white toppadding1">
+      <div class="medium-9 columns"><h1>Events</h1></div>
+      <div class="medium-3 columns"></div>
+</div>
+<div class="row interior white">
 	<div class="medium-12 columns">
-	
+    
 	
 	<?php /* Start loop */ ?>
 	<?php while (have_posts()) : the_post(); ?>

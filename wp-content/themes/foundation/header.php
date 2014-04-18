@@ -91,7 +91,16 @@
 </header>
 -->
 
-<div class="search-bar"></div>
+<div class="search-bar">
+  <div class="row interior">
+    <div class="medium-4 medium-offset-8 columns">
+     
+        <input type="text" placeholder="eg. Crispin or Casting Spacers" />
+      </label>
+     </div>
+    </form>
+</div>
+</div>
 </div>
 <div class="contain-to-grid">
 <section class="container" role="document">

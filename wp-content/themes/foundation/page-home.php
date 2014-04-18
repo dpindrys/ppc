@@ -21,11 +21,12 @@ get_header(); ?>
 
 			<div class="home-hero">
 			<div class="row interior">
-			<div class="medium-6 small-12 columns text-center">
-			<h1 class="hero-type">Trusted solitions.</h1>
+			<div class="medium-12 columns text-left">
+			<h1 class="hero-type">Trusted solutions.</h2>
+			<h1 class="hero-type">Dedicated delivery.</h2>
 			</div>
-			<div class="medium-6 small-12 columns text-center">
-			<h1 class="hero-type">Dedicated delivery.</h1>
+			<div class="medium-6 columns text-left">
+
 			</div>
 			</div></div>
 			<div class="hero-footer"></div>

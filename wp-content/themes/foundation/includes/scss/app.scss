@@ -38,18 +38,25 @@ input[type="submit"] {
 
 
 .home-hero {
-	background-attachment: fixed;
-	background-image: url('../assets/home-hero.jpg');
+	max-width: 1400px;
+	margin: 0 auto;
+	background-image: url('../assets/sprinkler_kid.jpg');
 	background-repeat: no-repeat;
-	background-position: left top;
-	background-size: 100% 100%;
+	background-size: cover;
 	height: 15em;
-	background-attachment: fixed;
 	display: block !important; 
-		@media #{$xlarge-up} {
+		@media #{$medium-up} {
 		    height: 25em;
 		    float: none;
-		    background-size: contain;
+		    background-size: cover;
+		    background-image: url('../assets/sprinkler_kid.jpg');
+  }
+  		@media #{$large-up} {
+		    height: 30em;
+		    padding-top: 3em;
+		    float: none;
+		    background-size: cover;
+		    background-image: url('../assets/sprinkler_kid.jpg');
   }
 }
 .hero-interior {
@@ -57,7 +64,7 @@ input[type="submit"] {
 }
 
 .hero-footer {
-	background-color: #7ddbd3;
+	background-color: $primary-color;
 	height: 4em;
 }
 
@@ -132,8 +139,8 @@ input[type="submit"] {
 
 
 .search-bar {
-	background-color: #7ddbd3;
-	padding: .2em;
+	background-color: $primary-color;;
+	padding: .6em 0 0 0;
 	height: 4em;
 	margin: 0 0 0 0;
 	clear: both;
@@ -247,7 +254,14 @@ table {
 	padding-top: 1em;
 }
 
+.product-list {
+	margin-top: 2em;
+}
+
 table tr th, table tr td {
 	border-bottom: 1px dotted #ddd;
 }
 
+.search-form {
+	padding-top: 4em;
+}
