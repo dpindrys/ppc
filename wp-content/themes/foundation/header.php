@@ -93,11 +93,14 @@
 
 <div class="search-bar">
   <div class="row interior">
-    <div class="medium-4 medium-offset-8 columns">
+    <div class="small-11 medium-5 medium-offset-6 columns">
      
         <input type="text" placeholder="eg. Crispin or Casting Spacers" />
       </label>
      </div>
+     <div class="small-1 columns">
+          <a href="#" class="button postfix">Search</a>
+        </div>
     </form>
 </div>
 </div>
