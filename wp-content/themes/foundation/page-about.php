@@ -4,21 +4,22 @@ Template Name: About Page
 */
 get_header(); ?>
 <div class="row interior white toppadding1">
-<div class="medium-9 columns"><h1>About Us</h1>
-<p>That's what we do, with consistent reliability.</p>
+<div class="medium-9 columns"><h1>About Us</h1><hr>
+
 </div>
       <div class="medium-3 columns">
 
-               <ul class="side-nav">
+               <ul class="side-nav" id="sticky">
         
-          <li class=""><a href="agriculture.html">What We Do</a></li>
-          <li class="active"><a href="agriculture.html">Our Team</a></li>
-          <li class=""><a href="golf.html">Contact Us</a></li>
+          <li class="active"><a href="#">What We Do</a></li>
+          <li class=""><a href="#">Our Team</a></li>
+          <li class=""><a href="?page_id=32">Contact Us</a></li>
 
         </ul>
 
 </div>
-
+<div class="row interior white">
+<div class="medium-12 columns">
 	
 	
 	<?php /* Start loop */ ?>

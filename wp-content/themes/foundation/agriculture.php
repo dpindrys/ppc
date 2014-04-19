@@ -10,11 +10,11 @@ get_header(); ?>
 
                <ul class="side-nav">
         
-          <li class=""><a href="agriculture.html">All Equipment</a></li>
-          <li class="active"><a href="agriculture.html">Agriculture</a></li>
-          <li class=""><a href="golf.html">Golf</a></li>
-          <li class=""><a href="irrigation.html">Irrigation</a></li>
-          <li class=""><a href="waterworks.html">Waterworks</a></li>
+          <li class=""><a href="?page_id=14">All Equipment</a></li>
+          <li class="active"><a href="?page_id=19">Agriculture</a></li>
+          <li class=""><a href="?page_id=254">Golf</a></li>
+          <li class=""><a href="?page_id=16">Irrigation</a></li>
+          <li class=""><a href="?page_id=8">Waterworks</a></li>
 
         </ul>
 

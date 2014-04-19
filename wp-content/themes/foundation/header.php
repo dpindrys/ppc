@@ -60,7 +60,7 @@
         <div class="white">
         <div class="row interior">
             <div class="logo">
-              <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img src="wp-content/themes/foundation/includes/assets/logo.png" class="logo"></a>
+              <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img src="wp-content/themes/foundation/includes/assets/logo-margin.png" class="logo"></a>
             </div>
             <div class="nav-wrap">
                 
@@ -93,13 +93,13 @@
 
 <div class="search-bar">
   <div class="row interior">
-    <div class="small-11 medium-5 medium-offset-6 columns">
+    <div class="small-10 medium-4 medium-offset-7 columns search-field">
      
         <input type="text" placeholder="eg. Crispin or Casting Spacers" />
       </label>
      </div>
-     <div class="small-1 columns">
-          <a href="#" class="button postfix">Search</a>
+     <div class="small-2 medium-1 columns search-button">
+          <a href="#" class="button postfix">Go</a>
         </div>
     </form>
 </div>

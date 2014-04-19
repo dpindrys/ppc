@@ -93,7 +93,7 @@ input[type="submit"] {
 .about-button, .projects-button, .vendors-button img {
 	position: relative;
 	text-align: center;
-	margin-top: -2em;
+	margin-top: -1.8em;
 	z-index: 9999;
 	padding: 0 0 1em 0;
 }
@@ -121,6 +121,7 @@ input[type="submit"] {
 .row.interior {
 	max-width: 1400px;
 	margin: 0 auto;
+	padding: 0 .5em;
 }
 
 .row.brand {
@@ -140,7 +141,7 @@ input[type="submit"] {
 
 .search-bar {
 	background-color: $primary-color;;
-	padding: .6em 0 0 0;
+	padding: .7em 0 0 0;
 	height: 4em;
 	margin: 0 0 0 0;
 	clear: both;
@@ -161,7 +162,7 @@ input[type="submit"] {
 .side-nav {
   border-color: #ddd;
   border-style: dotted;
-  border-width: 0 0 0 1px;
+  border-width: 0 0 0 0px;
   }
   
 
@@ -264,4 +265,21 @@ table tr th, table tr td {
 
 .search-form {
 	padding-top: 4em;
+}
+
+.button {
+	background-color: black;
+}
+
+.search-button {
+	padding-left: 0;
+	padding-right: .5;
+	  		@media #{$large-up} {
+	  			padding-right: 0;
+	  			padding: 0;
+  }
+}
+
+.search-field {
+	padding-right: 0;
 }

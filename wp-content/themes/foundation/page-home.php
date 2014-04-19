@@ -29,11 +29,11 @@ get_header(); ?>
 
 			</div>
 			</div></div>
-			<div class="hero-footer"></div>
+			
 			<!--3 buttons-->
 			<div class="row interior brand">
 			<div class="medium-4 columns">
-			<a href="about.html">
+			<a href="?page_id=25">
 			<div class="front-field">
 			<img class="about-button" src="wp-content/themes/foundation/includes/assets/about_button.png">
 			<h4 class="text-center">Who We Are</h4>
@@ -43,27 +43,29 @@ get_header(); ?>
 			</a>
 			</div>
 
+						<div class="medium-4 columns">
+			<a href="?page_id=14">
+			<div class="front-field">
+			<img class="about-button" src="wp-content/themes/foundation/includes/assets/vendors_button.png">
+			<h4 class="text-center">Our Vendors</h4>
+			<hr class="small-thick">
+			<p>Browse acategorized list of all the products that are supplied by our world class manufacturers.</p>
+			</div>
+			</a>
+			</div>
+
 			<div class="medium-4 columns">
-			<a href="projects.html">
+			<a href="?post_type=tribe_events">
 			<div class="front-field">
 			<img class="about-button" src="wp-content/themes/foundation/includes/assets/projects_button.png">
-			<h4 class="text-center">Success Stories</h4>
+			<h4 class="text-center">Training & Events</h4>
 			<hr class="small-thick">
 			<p>Take a look at some of our past projects we’ve helped make possible and imagine what we could do for you.</p>
 			</div>
 			</a>
 			</div>
 
-			<div class="medium-4 columns">
-			<a href="products.html">
-			<div class="front-field">
-			<img class="about-button" src="wp-content/themes/foundation/includes/assets/vendors_button.png">
-			<h4 class="text-center">Our Products</h4>
-			<hr class="small-thick">
-			<p>Browse acategorized list of all the products that are supplied by our world class manufacturers.</p>
-			</div>
-			</a>
-			</div>
+
 			</div>
 
 			<!--Statement and Calendar widget-->

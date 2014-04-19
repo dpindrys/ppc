@@ -1,16 +1,26 @@
 <?php
 /*
-Template Name: Events Page
+Template Name: Contact Page
 */
 get_header(); ?>
 <div class="row interior white toppadding1">
-      <div class="medium-9 columns"><h1>Events</h1></div>
-      <div class="medium-3 columns"></div>
-
+      <div class="medium-9 columns"><h1>Contact Us</h1>
+<hr>
 </div>
+      <div class="medium-3 columns">
+
+               <ul class="side-nav" id="sticky">
+        
+          <li class="active"><a href="#">Get in Touch</a></li>
+          <li class=""><a href="#">Visit Us</a></li>
+          <li class=""><a href="#">Send a Message</a></li>
+
+        </ul>
+
+</div></div>
 <div class="row interior white">
-	<div class="medium-12 columns">
-    <hr>
+<div class="medium-9 columns">
+
 	
 	<?php /* Start loop */ ?>
 	<?php while (have_posts()) : the_post(); ?>
