@@ -36,7 +36,7 @@ get_header(); ?>
 			<a href="?page_id=25">
 			<div class="front-field">
 			<img class="about-button" src="wp-content/themes/foundation/includes/assets/about_button.png">
-			<h4 class="text-center">Who We Are</h4>
+			<h4 class="text-center">About Us</h4>
 			<hr class="small-thick">
 			<p>Meet our team members and find out what sets us apart from other distributors.</p>
 			</div>
@@ -57,7 +57,7 @@ get_header(); ?>
 			<div class="medium-4 columns">
 			<a href="?post_type=tribe_events">
 			<div class="front-field">
-			<img class="about-button" src="wp-content/themes/foundation/includes/assets/projects_button.png">
+			<img class="about-button" src="wp-content/themes/foundation/includes/assets/events_button.png">
 			<h4 class="text-center">Training & Events</h4>
 			<hr class="small-thick">
 			<p>Take a look at some of our past projects we’ve helped make possible and imagine what we could do for you.</p>
@@ -66,15 +66,12 @@ get_header(); ?>
 			</div>
 
 
-			</div>
+	
 
 			<!--Statement and Calendar widget-->
 
-			<div class="row white interior content-fill">
-			<div class="medium-8 columns">
-			<h4 class="light">We are a distributer that supplies products that supply:</h4></div>
-			<div class="medium-4 columns">
-			[do_widget_area events-1]</div>
+
+
 						<footer>
 							<?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'FoundationPress'), 'after' => '</p></nav>' )); ?>
 							<p><?php the_tags(); ?></p>

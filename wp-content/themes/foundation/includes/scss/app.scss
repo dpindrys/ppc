@@ -273,7 +273,7 @@ table tr th, table tr td {
 
 .search-button {
 	padding-left: 0;
-	padding-right: .5;
+	padding-right: .5em;
 	  		@media #{$large-up} {
 	  			padding-right: 0;
 	  			padding: 0;
@@ -282,4 +282,11 @@ table tr th, table tr td {
 
 .search-field {
 	padding-right: 0;
+}
+
+
+.footerbg {
+	background-color: black;
+	clear: white;
+	width: 100%;
 }

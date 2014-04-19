@@ -5,14 +5,14 @@ Template Name: About Page
 get_header(); ?>
 <div class="row interior white toppadding1">
 <div class="medium-9 columns"><h1>About Us</h1><hr>
-
+<p>HD Supply Waterworks is the nation’s largest distributor of water, sewer, storm and fire protection products. We deliver the quality products and superior services our customers demand to get the job done. Our highly knowledgeable associates understand the specific needs of our customers and can be relied upon to provide personal touch service.</p>
 </div>
       <div class="medium-3 columns">
 
                <ul class="side-nav" id="sticky">
         
           <li class="active"><a href="#">What We Do</a></li>
-          <li class=""><a href="#">Our Team</a></li>
+          <li class=""><a href="#">Who We Are</a></li>
           <li class=""><a href="?page_id=32">Contact Us</a></li>
 
         </ul>
