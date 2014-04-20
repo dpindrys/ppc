@@ -8,7 +8,7 @@ get_header(); ?>
       <p>HD Supply Waterworks is the nation’s largest distributor of water, sewer, storm and fire protection products. We deliver the quality products and superior services our customers demand to get the job done. Our highly knowledgeable associates understand the specific needs of our customers and can be relied upon to provide personal touch service.</p></div>
       <div class="medium-3 columns">
 
-               <ul class="side-nav">
+               <ul class="side-nav hide-for-small-only">
         
           <li class=""><a href="?page_id=14">All Equipment</a></li>
           <li class=""><a href="?page_id=19">Agriculture</a></li>

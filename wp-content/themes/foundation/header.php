@@ -42,6 +42,7 @@
 
 <div class="sticky contain-to-grid">
   <nav class="tab-bar show-for-small-only">
+  <div class="medium-8 columns">
     <section class="left-small">
       <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
     </section>
@@ -93,9 +94,9 @@
 
 <div class="search-bar">
   <div class="row interior">
-    <div class="small-10 medium-4 medium-offset-7 columns search-field">
+    <div class="small-12 medium-4 medium-offset-7 columns search-field">
      
-        <input type="text" placeholder="eg. Crispin or Casting Spacers" />
+        <input type="text" placeholder="Search" />
       </label>
      </div>
      <div class="small-2 medium-1 columns search-button">

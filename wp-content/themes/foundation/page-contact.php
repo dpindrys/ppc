@@ -9,7 +9,7 @@ get_header(); ?>
 </div>
       <div class="medium-3 columns">
 
-               <ul class="side-nav" id="sticky">
+               <ul class="side-nav hide-for-small-only" id="sticky">
         
           <li class="active"><a href="#">Get in Touch</a></li>
           <li class=""><a href="#">Visit Us</a></li>

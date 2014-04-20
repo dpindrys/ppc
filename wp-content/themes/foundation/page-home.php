@@ -21,9 +21,9 @@ get_header(); ?>
 
 			<div class="home-hero">
 			<div class="row interior">
-			<div class="medium-12 columns text-left">
-			<h1 class="hero-type">Trusted solutions.</h2>
-			<h1 class="hero-type">Dedicated delivery.</h2>
+			<div class="medium-12 columns">
+			<h2 class="hero-type">Trusted solutions in </h2>
+			<h2 class="hero-type">Agriculture / Golf / Irrigation / Waterworks</h2>
 			</div>
 			<div class="medium-6 columns text-left">
 
@@ -66,11 +66,11 @@ get_header(); ?>
 			</div>
 
 
-	
+			</div>
 
 			<!--Statement and Calendar widget-->
 
-
+			<div class="row white interior white"></div>
 
 						<footer>
 							<?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'FoundationPress'), 'after' => '</p></nav>' )); ?>

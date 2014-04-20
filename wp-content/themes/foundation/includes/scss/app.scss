@@ -40,11 +40,13 @@ input[type="submit"] {
 .home-hero {
 	max-width: 1400px;
 	margin: 0 auto;
-	background-image: url('../assets/sprinkler_kid.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 15em;
+	padding: 1em 0 1em 0;
+	height: 10em;
 	display: block !important; 
+	background-size: cover;
+		    background-image: url('../assets/sprinkler_kid.jpg');
 		@media #{$medium-up} {
 		    height: 25em;
 		    float: none;
@@ -52,7 +54,7 @@ input[type="submit"] {
 		    background-image: url('../assets/sprinkler_kid.jpg');
   }
   		@media #{$large-up} {
-		    height: 30em;
+		    height: 40em;
 		    padding-top: 3em;
 		    float: none;
 		    background-size: cover;
@@ -77,13 +79,14 @@ input[type="submit"] {
 	text-align: center;
 	margin: 1em;
 	z-index: 1;
-	background-color: rgba(255, 255, 255, .2);
+	background-color: rgba(255, 255, 255, .5);
+
 	margin-bottom: 2em;
 	height: 18em;
 }
 
 .front-field:hover {
-	background-color: rgba(255, 255, 255, .4);
+	background-color: rgba(255, 255, 255, .8);
 }
 
 .front-field p {
@@ -121,7 +124,6 @@ input[type="submit"] {
 .row.interior {
 	max-width: 1400px;
 	margin: 0 auto;
-	padding: 0 .5em;
 }
 
 .row.brand {
@@ -140,11 +142,18 @@ input[type="submit"] {
 
 
 .search-bar {
-	background-color: $primary-color;;
+	background-color: white;
 	padding: .7em 0 0 0;
 	height: 4em;
 	margin: 0 0 0 0;
 	clear: both;
+		@media #{$medium-up} {
+		background-color: $primary-color;;
+		padding: .7em 0 0 0;
+		height: 4em;
+		margin: 0 0 0 0;
+		clear: both;
+		}
 }
 
 
@@ -177,7 +186,7 @@ input[type="submit"] {
 
   }
 .side-nav li.active > a:first-child:not(.button) {
-	background-color: red;
+	background-color: blue;
 	color: white;
 	font-weight: normal;
 
@@ -272,21 +281,15 @@ table tr th, table tr td {
 }
 
 .search-button {
+	padding-right: .85em;
+	display: none;
 	padding-left: 0;
-	padding-right: .5em;
 	  		@media #{$large-up} {
-	  			padding-right: 0;
 	  			padding: 0;
   }
 }
 
 .search-field {
+	@media #{$large-up} {
 	padding-right: 0;
-}
-
-
-.footerbg {
-	background-color: black;
-	clear: white;
-	width: 100%;
-}
+}}
