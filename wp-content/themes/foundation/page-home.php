@@ -20,16 +20,18 @@ get_header(); ?>
 			-->
 
 			<div class="home-hero">
-			<div class="row interior">
-			<div class="medium-12 columns">
-			<h2 class="hero-type">Trusted solutions in </h2>
-			<h2 class="hero-type">Agriculture / Golf / Irrigation / Waterworks</h2>
-			</div>
-			<div class="medium-6 columns text-left">
+				<div class="row interior">
+					<div class="medium-12 columns">
+						<h1 class="hero-type text-center">Trusted solutions, dedicated delivery in:</h2>
+						<hr>
+						<h2 class="hero-type text-center">Agriculture • Golf • Irrigation • Waterworks</h2?
+					</div>
+					<div class="medium-6 columns text-left">
 
+					</div>
+				</div>
 			</div>
-			</div></div>
-			
+			</div>
 			<!--3 buttons-->
 			<div class="row interior brand">
 			<div class="medium-4 columns">
