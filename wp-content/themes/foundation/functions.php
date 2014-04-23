@@ -32,21 +32,21 @@ require_once('library/theme-support.php');
 // HM Custom Meta Boxes
 require_once( 'Custom-Meta-Boxes/custom-meta-boxes.php' );
 
-add_filter( 'cmb_meta_boxes', 'cmb_sample_metaboxes' );
+// add_filter( 'cmb_meta_boxes', 'cmb_sample_metaboxes' );
 
-function cmb_sample_metaboxes( array $meta_boxes ) {
+// function cmb_sample_metaboxes( array $meta_boxes ) {
 
-    $meta_boxes[] = array(
-        'title' => 'Vendor name',
-        'pages' => 'page',
-        'show_on' => array( 'id' => array( 1 ) ),
-        'context'    => 'normal',
-        'priority'   => 'high',
-        'fields' => $fields // an array of fields - see individual field documentation.
-    );
+//     $meta_boxes[] = array(
+//         'title' => 'Vendor name',
+//         'pages' => 'page',
+//         'show_on' => array( 'id' => array( 1 ) ),
+//         'context'    => 'normal',
+//         'priority'   => 'high',
+//         'fields' => $fields // an array of fields - see individual field documentation.
+//     );
 
-    return $meta_boxes; 
-}
+//     return $meta_boxes; 
+// }
 
 
 
