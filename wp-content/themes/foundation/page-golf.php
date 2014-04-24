@@ -50,19 +50,17 @@ get_header(); ?>
 		//	- Get product entries
 		$args = array( 'post_type' => 'products', 'cat' => $sub_c->cat_ID );
 		$products_in_sub_category = get_posts( $args );
-		// print_r($products_in_sub_category);
-
-		//	- Vendor information
-
-
 		echo "<h4>" . $sub_c->name . "</h4>";
 
+		//	- Vendor information
 		foreach($products_in_sub_category as $p) {
     	$pc = get_post_complete($p->ID);
+    	// print_r($pc);
 
-    	$args = array( 'post_type' => 'vendors', 'posts_per_page' => -1, 'ID' => $p->vendor );
-    	$vendor = get_posts( $args );
-    	print_r($vendor);
+    	// $args = array( 'post_type' => 'vendor', 'posts_per_page' => 10, 'ID' => $p->vendor );
+    	// $vendor = get_posts( $args );
+    	// print_r($vendor);
+
     	// get_post_complete() // returns data as an ARRAY, not as an OBJECT!!!
 ?>
 	  	<a href=" <?php echo $pc['URL']; ?> " target="_blank"> <?php echo $pc['post_title'] ?> </a> <br>
