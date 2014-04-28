@@ -43,8 +43,8 @@
 <div class="sticky contain-to-grid">
   <nav class="tab-bar show-for-small-only">
   <div class="medium-8 columns">
-    <section class="left-small">
-      <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
+    <section class="right-small">
+      <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
     </section>
     <section class="middle tab-bar-section">
       
@@ -53,7 +53,7 @@
     </section>
   </nav>
 
-  <aside class="left-off-canvas-menu">
+  <aside class="right-off-canvas-menu">
     <?php foundationPress_mobile_off_canvas(); ?>
   </aside>
   
@@ -61,7 +61,7 @@
         <div class="white">
         <div class="row interior">
             <div class="logo">
-              <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img src="wp-content/themes/foundation/includes/assets/logo-margin.png" class="logo"></a>
+              <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img src="wp-content/themes/foundation/includes/assets/logo.png" class="logo"></a>
             </div>
             <div class="nav-wrap">
                 
@@ -91,12 +91,13 @@
   </div>
 </header>
 -->
-
+<div class="small-9 white show-for-small-only text-right toppadding1">
+<img src="wp-content/themes/foundation/includes/assets/logo_mobile.jpg"></div>
 <div class="search-bar">
   <div class="row interior">
     <div class="small-12 medium-4 medium-offset-7 columns search-field">
      
-        <input type="text" placeholder="Search" />
+        <input type="text" placeholder="Search"/>
       </label>
      </div>
      <div class="small-2 medium-1 columns search-button">

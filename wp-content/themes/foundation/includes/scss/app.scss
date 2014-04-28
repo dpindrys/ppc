@@ -13,10 +13,10 @@
 
 
 input[type="submit"] {
-	background-color: black;
+	background-color: blue;
 	width: auto;
 	border: 0;
-	padding: 2em;
+	padding: 1em;
 	color: white;
 	font-size: 1em;
 }
@@ -42,13 +42,7 @@ input[type="submit"] {
 
 
 
-.about-button, .projects-button, .vendors-button img {
-	position: relative;
-	text-align: center;
-	margin-top: -1em;
-	z-index: 9999;
-	padding: 0 0 1em 0;
-}
+
 
 
 .small-thick {
@@ -70,10 +64,7 @@ input[type="submit"] {
 	height: 90em;
 }
 
-.row.interior {
-	max-width: 1400px;
-	margin: 0 auto;
-}
+
 
 .row.brand {
 	background-color: #7ddbd3;
@@ -135,8 +126,8 @@ input[type="submit"] {
 
 .logo {
    float: left;
-    width: 300px;
-    margin-top: .5em;
+    width: 302px;
+    margin-top: .42em;
     z-index: 999;
 }
 
@@ -210,14 +201,7 @@ table tr th, table tr td {
 	background-color: black;
 }
 
-.search-button {
-	padding-right: .85em;
-	display: none;
-	padding-left: 0;
-	  		@media #{$large-up} {
-	  			padding: 0;
-  }
-}
+
 
 .search-field {
 	@media #{$large-up} {

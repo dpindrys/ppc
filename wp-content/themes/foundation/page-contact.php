@@ -4,22 +4,31 @@ Template Name: Contact Page
 */
 get_header(); ?>
 <div class="row interior white toppadding1">
-      <div class="medium-9 columns"><h1>Contact Us</h1>
+      <div class="medium-12 columns"><h1>Contact Us</h1>
 <hr>
+	<div class="row interior white">
+		<div class="medium-6 columns">
+<h3 class="light">Visit Us</h3>
+<p>1255 Kuala St, Pearl City, HI 96782</p>
+<a href="https://www.google.com/maps/preview?ie=UTF-8&q=Pacific+Pipe+Co.&fb=1&gl=us&hq=pacific+pipe+company&cid=17962707371569505338&ei=CaNaU5y4DZKpyATOi4CoCA&ved=0CKQBEPwSMAs" target="new">
+<img class="th" src="wp-content/themes/foundation/includes/assets/map.jpg"></a>
 </div>
-      <div class="medium-3 columns">
+<div class="medium-6 columns"><h3 class="light">Get in Touch</h3>
+<p>Office<br>(808) 455-8700</p>
+<p>Sales<br>(808) 455-8700</p>
+<p>Warehouse<br>(808) 455-8700</p></div>
+</div>
 
-               <ul class="side-nav hide-for-small-only" id="sticky">
-        
-          <li class="active"><a href="#">Get in Touch</a></li>
-          <li class=""><a href="#">Visit Us</a></li>
-          <li class=""><a href="#">Send a Message</a></li>
+<div class="row interior">
+<div class="medium-6 columns">
+<h3 class="light">Hours</h3>
+<p>M-F 7:00am - 4:00pm</p>
+</div>
 
-        </ul>
 
-</div></div>
-<div class="row interior white">
-<div class="medium-9 columns">
+
+
+
 
 	
 	<?php /* Start loop */ ?>
