@@ -48,6 +48,14 @@ require_once( 'Custom-Meta-Boxes/custom-meta-boxes.php' );
 //     return $meta_boxes; 
 // }
 
-
+// Custom Sort Functions
+function cmp_name($a, $b)
+{
+    return strcmp($a->name, $b->name);
+}
+function cmp_post_title($a, $b)
+{
+    return strcmp($a->post_title, $b->post_title);
+}
 
 ?>

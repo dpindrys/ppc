@@ -110,7 +110,16 @@ input[type="submit"] {
 	background-color: red;
 	color: white;
 	font-weight: normal;
+}
 
+#page-all-equipments.active-menu-for-all-equipments,
+#page-agriculture.active-menu-for-agriculture,
+#page-golf.active-menu-for-golf,
+#page-irrigation.active-menu-for-irrigation,
+#page-waterworks.active-menu-for-waterworks {
+	background-color: red;
+	color: white;
+	font-weight: normal;
 }
 
 .side-nav li:hover {
