@@ -21,7 +21,8 @@
       echo wp_title( ' | ', 'false', 'right' ); bloginfo( 'name' );
     } ?></title>
     
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/includes/css/app.css" />
+    <!--link rel="stylesheet" href="<?php bloginfo('siteurl'); ?>/includes/css/app.css" /-->
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/includes/css/app.css">
 
     <script type="text/javascript" src="//use.typekit.net/efa7oev.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
