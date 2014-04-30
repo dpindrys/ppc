@@ -143,6 +143,17 @@ h2.tribe-events-page-title {
 		margin: 1em;
 }
 
+	footer.row{
+		color: #ccc;
+		background: #333;
+		height: auto;
+		margin-top: 1em;
+		padding: 2em 0 1em 0;
+	}
+
+	footer ul{
+		list-style: none;
+	}
 /**
  * 3.0 Content
  * ----------------------------------------------------------------------------
@@ -235,7 +246,7 @@ h2.tribe-events-page-title {
  */
 
 .row.interior {
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto;
 }
 

@@ -9,7 +9,7 @@ get_header(); ?>
 
 </div>
 <div class="row interior white">
-	<div class="medium-9 columns">
+	<div class="medium-12 columns">
     <hr>
 	
 	<?php /* Start loop */ ?>

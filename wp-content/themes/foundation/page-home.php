@@ -68,12 +68,7 @@ get_header(); ?>
 
 
 
-			<div class="row interior">
-			<div class="medium-8 columns">
-			<h1 class="light">Contact Us</h1>
-			</div>
-			<div class="medium-4 columns">
-			<h1 class="light">Events</h1>
+			
 						<footer>
 							<?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'FoundationPress'), 'after' => '</p></nav>' )); ?>
 							<p><?php the_tags(); ?></p>
