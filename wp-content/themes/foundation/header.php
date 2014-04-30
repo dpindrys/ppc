@@ -62,11 +62,7 @@
         <div class="white">
         <div class="row interior">
             <div class="logo">
-<<<<<<< HEAD
-              <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img src="wp-content/themes/foundation/includes/assets/logo.png" class="logo"></a>
-=======
               <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo-margin.png" class="logo"></a>
->>>>>>> 705066b4248cb09cbfa073374785ca048437e49e
             </div>
             <div class="nav-wrap">
                 
