@@ -9,9 +9,9 @@ get_header(); ?>
 	<div class="row interior white">
 		<div class="medium-6 columns">
 <h3 class="light">Visit Us</h3>
-<p>1255 Kuala St, Pearl City, HI 96782</p>
 <a href="https://www.google.com/maps/preview?ie=UTF-8&q=Pacific+Pipe+Co.&fb=1&gl=us&hq=pacific+pipe+company&cid=17962707371569505338&ei=CaNaU5y4DZKpyATOi4CoCA&ved=0CKQBEPwSMAs" target="new">
-<img class="th" src="wp-content/themes/foundation/includes/assets/map.jpg"></a>
+<p>1255 Kuala St, Pearl City, HI 96782</p>
+<img class="th" src="../wp-content/themes/foundation/includes/assets/map.jpg"></a>
 </div>
 <div class="medium-6 columns"><h3 class="light">Get in Touch</h3>
 <p>Office<br>(808) 455-8700</p>

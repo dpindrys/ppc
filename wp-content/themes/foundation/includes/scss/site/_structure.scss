@@ -42,13 +42,15 @@ h1 .title {
 .home-hero h1, h2 {
 	font-weight: bold;
 	font-size: 1.8em;
-	line-height: 1.5;
-	color: $primary-color;
+	line-height: 1.7;
+	color: black;
   	font-family: "adelle-sans";
   	letter-spacing: .04em;
   	width: 100%;
+  	margin: 0 0 1em 0;
   		@media #{$medium-up} {
   			color: white;
+  			margin: 0;
   			display: block;
   			padding-right: .5em;
   			font-size: 3em;
@@ -110,6 +112,10 @@ h2.tribe-events-page-title {
  * ----------------------------------------------------------------------------
  */
 
+ul.off-canvas-list li a {
+	padding-left: 1.3em;
+}
+
 .contain-to-grid {
 	background-color: #fff;
 	min-height: 100%;
@@ -125,14 +131,13 @@ h2.tribe-events-page-title {
  	font-weight: bold;
  	color: white;
  	font-size: .95em;
-  	background-color: black;
   	margin-bottom: 0;
   	font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   	font-weight: 500;
 
   }
 
-	#menu-item-93 {
+	.menu-item-93 {
 	  	background-color: blue; 
 	}
 
@@ -173,7 +178,7 @@ h2.tribe-events-page-title {
 .front-field {
 	padding: 0 1em .2em 1em;
 	text-align: center;
-	margin: 0em 0 3em 0;
+	margin: 2em 0 3em 0;
 	background-color: rgba(0, 0, 0, .04);
 	transition: .7s;
 	height: 100%;
@@ -284,8 +289,12 @@ h2.tribe-events-page-title {
 	padding-right: .85em;
 	display: none;
 	padding-left: 0;
-	  		@media #{$large-up} {
+	@media #{$medium-up} {
+		display: block;
+	}
+	  		@media #{$xlarge-up} {
 	  			padding: 0;
+	  			display: block;
   }
 }
 

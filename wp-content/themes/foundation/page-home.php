@@ -23,7 +23,7 @@ get_header(); ?>
 			<div class="home-hero">
 				<div class="row interior">
 					<div class="medium-12 columns">
-						<h1>Trusted solutions,</h1> <h1>dedicated delivery</h1>
+						<h1>Trusted solutions,<br>dedicated delivery</h1>
 						<h2>Agriculture, Golf, Irrigation and Waterworks destribution.</h2>
 					</div>
 

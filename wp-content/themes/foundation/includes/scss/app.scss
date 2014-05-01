@@ -112,7 +112,7 @@ input[type="submit"] {
 
 
 .side-nav li.active > a:first-child:not(.button) {
-	background-color: red;
+	background-color: #ccc;
 	color: white;
 	font-weight: normal;
 }
@@ -122,9 +122,9 @@ input[type="submit"] {
 #page-golf.active-menu-for-golf,
 #page-irrigation.active-menu-for-irrigation,
 #page-waterworks.active-menu-for-waterworks {
-	background-color: red;
+	background-color: #ddd;
 	color: white;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .side-nav li:hover {
@@ -141,7 +141,7 @@ input[type="submit"] {
 .logo {
    float: left;
     width: 302px;
-    margin-top: .42em;
+    margin-top: .49em;
     z-index: 999;
 }
 
@@ -212,7 +212,10 @@ table tr th, table tr td {
 }
 
 .button {
-	background-color: black;
+	background-color: rgba(0, 0, 0, .4);
+}
+.button:hover{
+	background-color: rgba(0, 0, 0, .6);
 }
 
 

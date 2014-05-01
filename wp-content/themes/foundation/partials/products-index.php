@@ -16,7 +16,7 @@
     <div class="medium-3 columns">
       <ul class="side-nav hide-for-small-only">
         <li class="active-menu-for-<?php print_r($active_page_name); ?>" id="page-all-equipments">
-          <a href="<?php bloginfo('url'); ?>/products/"> All Equipments </a>
+          <a href="<?php bloginfo('url'); ?>/products/"> All Products </a>
         </li>
         <li class="active-menu-for-<?php print_r($active_page_name); ?>" id="page-agriculture">
           <a href="<?php bloginfo('url'); ?>/products/agriculture/"> Agriculture </a>
