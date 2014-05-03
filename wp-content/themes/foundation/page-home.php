@@ -20,7 +20,7 @@ get_header(); ?>
 			-->
 			</div>
 			</div>
-			<div class="home-hero">
+			<div class="home-hero hide-for-small-only">
 				<div class="row interior">
 					<div class="medium-12 columns">
 						<h1>Trusted solutions,<br>dedicated delivery</h1>

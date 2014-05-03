@@ -86,20 +86,7 @@ input[type="submit"] {
 }
 
 
-.search-bar {
-	background-color: white;
-	padding: .7em 0 0 0;
-	height: 4em;
-	margin: 0 0 0 0;
-	clear: both;
-		@media #{$medium-up} {
-		background-color: $primary-color;;
-		padding: .7em 0 0 0;
-		height: 4em;
-		margin: 0 0 0 0;
-		clear: both;
-		}
-}
+
 
 
 
@@ -139,6 +126,7 @@ input[type="submit"] {
 
 
 .logo {
+
    float: left;
     width: 302px;
     margin-top: .49em;
@@ -152,14 +140,7 @@ input[type="submit"] {
 
 }
 
-.logo img {
-	vertical-align: bottom;
-	margin-bottom: -4.2em;
-}
 
-.logo-mobile {
-	width: 100%;
-}
 
 .panel {
 	background: white;
@@ -207,20 +188,5 @@ table tr th, table tr td {
 	border-bottom: 1px dotted #ddd;
 }
 
-.search-form {
-	padding-top: 4em;
-}
-
-.button {
-	background-color: rgba(0, 0, 0, .4);
-}
-.button:hover{
-	background-color: rgba(0, 0, 0, .6);
-}
 
 
-
-.search-field {
-	@media #{$large-up} {
-	padding-right: 0;
-}}

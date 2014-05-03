@@ -41,11 +41,11 @@
   <div class="off-canvas-wrap">
   <div class="inner-wrap">
 
-<div class="sticky contain-to-grid">
+<div>
   <nav class="tab-bar show-for-small-only">
   <div class="medium-8 columns">
-    <section class="right-small">
-      <a class="right-off-canvas-toggle menu-icon"><span></span></a>
+    <a class="right-off-canvas-toggle"><section class="right-small menu-toggle-icon">
+      MENU</a>
     </section>
     <section class="middle tab-bar-section">
       
@@ -92,15 +92,16 @@
   </div>
 </header>
 -->
-<div class="small-9 white show-for-small-only text-right toppadding1">
-<img src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo_mobile.jpg"></div>
+<div class="small-8 white show-for-small-only text-right">
+<img class="logo-mobile" src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo-mobile.png"></div>
 <div class="search-bar">
   <div class="row interior">
     <div class="small-12 medium-4 medium-offset-7 columns search-field">
-      <input type="text" placeholder="Search"/>
+     
+        <input type="text" placeholder="Search"/>
       </label>
-    </div>
-<div class="small-1 columns search-button">
+     </div>
+     <div class="small-12 medium-1 columns search-button">
           <a href="#" class="button postfix">Go</a>
         </div>
     </form>
