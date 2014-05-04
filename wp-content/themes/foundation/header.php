@@ -93,7 +93,7 @@
 </header>
 -->
 <div class="small-8 white show-for-small-only text-right">
-<img class="logo-mobile" src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo-mobile.png"></div>
+<a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img class="logo-mobile" src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo-mobile.png"></a></div>
 <div class="search-bar">
   <div class="row interior">
     <div class="small-12 medium-4 medium-offset-7 columns search-field">

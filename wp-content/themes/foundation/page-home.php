@@ -18,8 +18,7 @@ get_header(); ?>
 				<?php the_content(); ?>
 			</div>
 			-->
-			</div>
-			</div>
+	
 			<div class="home-hero hide-for-small-only">
 				<div class="row interior">
 					<div class="medium-12 columns">
@@ -35,9 +34,9 @@ get_header(); ?>
 			<div class="medium-4 columns">
 			<a href="?page_id=25">
 			<div class="front-field">
-			<img class="about-button" src="wp-content/themes/foundation/includes/assets/about_button.png">
-			<h4 class="text-center">About Us</h4>
-			<p>Find out what sets us apart.</p>
+			<img class="about-button" src="wp-content/themes/foundation/includes/assets/about-button.png">
+			<h4 class="">About Us</h4>
+			<p class="hide-for-small-only">Find out what sets us apart.</p>
 			</div>
 			</a>
 			</div>
@@ -47,7 +46,7 @@ get_header(); ?>
 			<div class="front-field">
 			<img class="about-button" src="wp-content/themes/foundation/includes/assets/vendors_button.png">
 			<h4 class="text-center">Our Vendors</h4>
-			<p>The best in the world.</p>
+			<p class="hide-for-small-only">The best in the world.</p>
 			</div>
 			</a>
 			</div>
@@ -55,9 +54,9 @@ get_header(); ?>
 			<div class="medium-4 columns">
 			<a href="?post_type=tribe_events">
 			<div class="front-field">
-			<img class="about-button" src="wp-content/themes/foundation/includes/assets/events_button.png">
-			<h4 class="text-center">Training & Events</h4>
-			<p>Building an empowered community.</p>
+			<img class="about-button" src="wp-content/themes/foundation/includes/assets/calendar-button.png">
+			<h4 class="">Training & Events</h4>
+			<p class="hide-for-small-only">Building an empowered community.</p>
 			</div>
 			</a>
 			</div>
