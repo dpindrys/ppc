@@ -19,7 +19,9 @@
  * 1.0 Typography
  * ----------------------------------------------------------------------------
  */
-
+p {
+	letter-spacing: .053em;
+}
 h1 {
 	font-size: 2em;
 		@media #{$medium-up} {
@@ -39,13 +41,13 @@ h1 .title {
 }
 
 
-.home-hero h1, h2 {
+.home-hero h1 {
 	font-weight: bold;
 	font-size: 1.8em;
 	line-height: 1.7;
 	color: black;
   	font-family: "adelle-sans";
-  	letter-spacing: .04em;
+  	letter-spacing: .05em;
   	width: 100%;
   	margin: 0 0 1em 0;
   		@media #{$medium-up} {
@@ -64,14 +66,24 @@ h1 .title {
 }
 
 .home-hero h2 {
+	letter-spacing: .1em;
 	colo: white;
 	font-size: 1.5em;
 	font-weight: 100;
   		@media #{$medium-up} {
+  			color: white;
   			font-size: 2em;
   			background-color: rgba(0, 0, 0, .4);
   			padding-left: .3em;
   		}
+}
+
+.home-hero h2 a {
+	color: $primary-color;
+}
+
+.home-hero h2 a:hover {
+	color: #ccc;
 }
 
 .home-hero ul li {
@@ -184,11 +196,26 @@ ul.off-canvas-list li a {
 		background: #333;
 		height: auto;
 		margin-top: 1em;
-		padding: 2em 0 1em 0;
+		padding: 1em;
 	}
 
-	footer ul{
+	footer ul li{
+		padding: 0;
 		list-style: none;
+		font-size: 2em;
+		border-bottom: 1px solid #666;
+			@media #{$medium-up} {
+				font-size: 1.4em;
+			}
+				@media #{$xlarge-up} {
+				font-size: 2em;
+			}
+	}
+
+	footer p {
+		font-size: 2em;
+		font-weight: 100;
+		letter-spacing: .1em;
 	}
 /**
  * 3.0 Content
@@ -213,7 +240,7 @@ ul.off-canvas-list li a {
 	background-color: rgba(0, 0, 0, .04);
 	transition: .7s;
 	width: 100%;
-	border: 0em solid #ddd;
+	border: 1px solid #ccc;
 		@media #{$medium-up} {
 		padding: 0 1em .2em 1em;
 		text-align: center;
@@ -261,9 +288,9 @@ ul.off-canvas-list li a {
 }
 
 .front-field:hover {
-	
+
 		@media #{$medium-up} {
-		border: 0;
+		background-color: white;
 		border-bottom: .15em solid blue;
 }
 }
@@ -359,7 +386,7 @@ ul.off-canvas-list li a {
 	padding: 1.6em 0 .6em 0;
 	margin-top: 3em;
 		@media #{$medium-up} {
-		padding: .7em 0 0 0;
+		padding: 1em 0 0 0;
 		margin: 0 0 0 0;
 		clear: both;
 		}

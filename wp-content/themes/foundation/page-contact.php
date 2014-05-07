@@ -7,23 +7,33 @@ get_header(); ?>
       <div class="medium-12 columns"><h1>Contact Us</h1>
 <hr>
 	<div class="row interior white">
-		<div class="medium-6 columns">
+		<div class="medium-4 columns">
 <h3 class="light">Visit Us</h3>
 <a href="https://www.google.com/maps/preview?ie=UTF-8&q=Pacific+Pipe+Co.&fb=1&gl=us&hq=pacific+pipe+company&cid=17962707371569505338&ei=CaNaU5y4DZKpyATOi4CoCA&ved=0CKQBEPwSMAs" target="new">
-<p>1255 Kuala St, Pearl City, HI 96782</p>
-<img class="th" src="../wp-content/themes/foundation/includes/assets/map.jpg"></a>
+<p>1255 Kuala St, Pearl City, HI 96782</p></a>
+		</div>
+		<div class="medium-6 columns">
+		<h3 class="light">Hours</h3>
+		<p>M-F 7:00am - 4:00pm</p>
+		</div>
+		<div class="medium-2 columns">
+		<h3 class="light">Get in Touch</h3>
+		</div>
+
+		<div class="row-interior">
+		<div class="medium-10 columns">
+		<a href="https://www.google.com/maps/preview?ie=UTF-8&q=Pacific+Pipe+Co.&fb=1&gl=us&hq=pacific+pipe+company&cid=17962707371569505338&ei=CaNaU5y4DZKpyATOi4CoCA&ved=0CKQBEPwSMAs" target="new">
+		<img class="th" src="../wp-content/themes/foundation/includes/assets/map.jpg"></a>
 </div>
-<div class="medium-6 columns"><h3 class="light">Get in Touch</h3>
+<div class="medium-2 columns">
 <p>Office<br>(808) 455-8700</p>
 <p>Sales<br>(808) 455-8700</p>
-<p>Warehouse<br>(808) 455-8700</p></div>
+<p>Warehouse<br>(808) 455-8700</p>
+<a href="#message"><p>Send a message</p></a></div>
 </div>
 
-<div class="row interior">
-<div class="medium-6 columns">
-<h3 class="light">Hours</h3>
-<p>M-F 7:00am - 4:00pm</p>
-</div>
+<div class="row interior name="message">
+
 
 
 

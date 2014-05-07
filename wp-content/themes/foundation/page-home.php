@@ -22,8 +22,8 @@ get_header(); ?>
 			<div class="home-hero hide-for-small-only">
 				<div class="row interior">
 					<div class="medium-12 columns">
-						<h1>Trusted solutions,<br>dedicated delivery</h1>
-						<h2>Agriculture, Golf, Irrigation and Waterworks destribution.</h2>
+						<h1>Trusted solutions,<br>dedicated delivery:</h1>
+						<h2><a href="products/agriculture/">Agriculture</a>, <a herf="products/golf/">Golf</a>, <a href="products/irrigation/">Irrigation</a> and <a href="products/waterworks/">Waterworks</a> distribution.</h2>
 					</div>
 
 				</div>
@@ -44,7 +44,7 @@ get_header(); ?>
 						<div class="medium-4 columns">
 			<a href="?page_id=14">
 			<div class="front-field">
-			<img class="about-button" src="wp-content/themes/foundation/includes/assets/vendors_button.png">
+			<img class="about-button" src="wp-content/themes/foundation/includes/assets/products-button.png">
 			<h4 class="text-center">Our Vendors</h4>
 			<p class="hide-for-small-only">The best in the world.</p>
 			</div>

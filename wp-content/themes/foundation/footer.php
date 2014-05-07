@@ -2,8 +2,8 @@
 </section>
 
 <footer class="row full-width">
-	<div class="row interior">
-	<div class="medium-4 columns grey"><p><ul><li>Home</li><li>About</li><li>Vendors</li><li>Events</li><li>Contact</li></p></div>
+	
+	<div class="medium-2 columns grey"><p><ul><li>Home</li><li>About</li><li>Vendors</li><li>Events</li><li>Contact</li></p></div>
 	<div class="medium-4 columns"><p>PACIFIC PIPE CO.</p><p>1255 Kuala St, Pearl City, HI 96782</p></div>
 	<div class="medium-4 columns"><p>Social media</p></div>
 		<?php do_action('foundationPress_before_footer'); ?>
