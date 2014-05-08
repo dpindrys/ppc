@@ -45,7 +45,7 @@ get_header(); ?>
 			<a href="?page_id=14">
 			<div class="front-field">
 			<img class="about-button" src="wp-content/themes/foundation/includes/assets/products-button.png">
-			<h4 class="text-center">Our Vendors</h4>
+			<h4 class="text-center">Our Products</h4>
 			<p class="hide-for-small-only">The best in the world.</p>
 			</div>
 			</a>
