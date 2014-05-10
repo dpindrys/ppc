@@ -64,10 +64,13 @@ h1 .title {
 }
 
 .home-hero h2 {
+	colo: white;
 	font-size: 1.5em;
 	font-weight: 100;
   		@media #{$medium-up} {
   			font-size: 2em;
+  			background-color: rgba(0, 0, 0, .4);
+  			padding-left: .3em;
   		}
 }
 
@@ -111,7 +114,31 @@ h2.tribe-events-page-title {
  * 2.0 Header, sidebar and footer
  * ----------------------------------------------------------------------------
  */
+.logo-mobile {
+	margin-bottom: -4.2em;
+}
+.logo img {
+	vertical-align: bottom;
+	margin-bottom: -4.2em;
+}
 
+.menu-toggle-icon {
+	background-color: rgba(0, 0, 0, .05);
+	border-radius:5px;
+	height: 2.4em;
+	width: 4.5em;
+	margin: -.2em -.3em 0 0;
+	line-height: 2.5;
+	border: 1px solid black;
+	color: black;
+	font-size: .9em;
+	letter-spacing: .1em;
+	text-align: center;
+}
+
+.menu-toggle-icon a{
+	color: black;
+}
 ul.off-canvas-list li a {
 	padding-left: 1.3em;
 }
@@ -148,6 +175,10 @@ ul.off-canvas-list li a {
 		margin: 1em;
 }
 
+.right-off-canvas-toggle {
+
+}
+
 	footer.row{
 		color: #ccc;
 		background: #333;
@@ -177,13 +208,24 @@ ul.off-canvas-list li a {
 
 .front-field {
 	padding: 0 1em .2em 1em;
-	text-align: center;
-	margin: 2em 0 3em 0;
+	text-align: left;
+	margin: 1em 0 -.5em 0;
 	background-color: rgba(0, 0, 0, .04);
 	transition: .7s;
-	height: 100%;
-	border-bottom: .15em solid #ddd;
-
+	width: 100%;
+	border: 0em solid #ddd;
+		@media #{$medium-up} {
+		padding: 0 1em .2em 1em;
+		text-align: center;
+		margin: 2em 0 1em 0;
+		background-color: rgba(0, 0, 0, .04);
+		transition: .7s;
+		height: 100%;
+		border-bottom: .15em solid #ddd;
+  }
+  		@media #{$large-up} {
+		    padding: 1em;
+  }
 }
 
 
@@ -194,15 +236,44 @@ ul.off-canvas-list li a {
 	line-height: 1.3;
 
 }
+ .front-field h4 {
+ 	position: absolute;
+ 	top: 45%;
+ 	left: 45%;
+ 	text-align: left;
+ 		@media #{$medium-up} {
+ 			position: relative;
+ 			top: 0;
+ 			left: 0;
+ 			text-align: center;
+ 		}
+ }
 
 
 .about-button {
-	margin-top: -1em;
+	margin: .5em 0 .5em 0;
+	opacity: .85;
+		@media #{$medium-up} {
+		margin-top: -2.5em;
+		opacity: .85;
+		transition: .5s;
+}
 }
 
 .front-field:hover {
-	background-color: rgba(0, 0, 0, .02);
-	border-bottom: .15em solid blue;
+	
+		@media #{$medium-up} {
+		border: 0;
+		border-bottom: .15em solid blue;
+}
+}
+
+.front-field:hover > .about-button {
+	opacity: 1;
+}
+
+.about-button:hover {
+	opacity: 1;
 }
 
 
@@ -220,7 +291,6 @@ ul.off-canvas-list li a {
 	padding: 0em 0 1em 0;
 	height: 8em; 
 	background-size: cover;
-	margin-top: 0em;
 	margin-bottom: 2.5em;
 		@media #{$medium-up} {
 			outline: 1em solid $primary-color;
@@ -284,19 +354,42 @@ ul.off-canvas-list li a {
  * 3.6 Forms
  * ------------------------------------
  */
+.search-bar {
+	background-color: $primary-color;
+	padding: 1.6em 0 .6em 0;
+	margin-top: 3em;
+		@media #{$medium-up} {
+		padding: .7em 0 0 0;
+		margin: 0 0 0 0;
+		clear: both;
+		}
+}
 
 .search-button {
 	padding-right: .85em;
-	display: none;
 	padding-left: 0;
+	display: none;
 	@media #{$medium-up} {
-		display: block;
+	display: block;
 	}
 	  		@media #{$xlarge-up} {
 	  			padding: 0;
 	  			display: block;
   }
 }
+
+.search-form {
+	padding-top: 4em;
+}
+
+.button {
+	background-color: rgba(0, 0, 0, .4);
+}
+.button:hover{
+	background-color: rgba(0, 0, 0, .6);
+}
+
+
 
 
 /**
@@ -306,4 +399,12 @@ ul.off-canvas-list li a {
 
 .tribe-bar-disabled #tribe-bar-form label {
 font-size: 20px;
+}
+
+.tribe-events-notices {
+	display: none;
+}
+
+#tribe-bar-dates {
+	display: none;
 }
