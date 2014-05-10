@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
-	<div class="small-12 large-8 columns" role="main">
+<div class="row interior">
+	<div class="small-12 large-8 columns toppadding1" role="main">
 	
 		<h2><?php _e('Search Results for', 'FoundationPress'); ?> "<?php echo get_search_query(); ?>"</h2>
 	
@@ -23,6 +24,7 @@
 	<?php } ?>
 
 	</div>
+	<div class="toppadding1">
 	<?php get_sidebar(); ?>
 		
 <?php get_footer(); ?>
