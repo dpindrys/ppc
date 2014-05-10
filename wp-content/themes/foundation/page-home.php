@@ -23,7 +23,7 @@ get_header(); ?>
 				<div class="row interior">
 					<div class="medium-12 columns">
 						<h1>Trusted solutions,<br>dedicated delivery:</h1>
-						<h2><a href="products/agriculture/">Agriculture</a>, <a herf="products/golf/">Golf</a>, <a href="products/irrigation/">Irrigation</a> and <a href="products/waterworks/">Waterworks</a> distribution.</h2>
+						<h2><a href="products/agriculture/">Agriculture</a>, <a href="products/golf/">Golf</a>, <a href="products/irrigation/">Irrigation</a> and <a href="products/waterworks/">Waterworks</a> distribution.</h2>
 					</div>
 
 				</div>
@@ -36,7 +36,7 @@ get_header(); ?>
 			<div class="front-field">
 			<img class="about-button" src="wp-content/themes/foundation/includes/assets/about-button.png">
 			<h4 class="">About Us</h4>
-			<p class="hide-for-small-only">Find out what sets us apart.</p>
+			<p class="hide-for-small-only">See who we are and what sets us apart.</p>
 			</div>
 			</a>
 			</div>
@@ -46,7 +46,7 @@ get_header(); ?>
 			<div class="front-field">
 			<img class="about-button" src="wp-content/themes/foundation/includes/assets/products-button.png">
 			<h4 class="text-center">Our Products</h4>
-			<p class="hide-for-small-only">The best in the world.</p>
+			<p class="hide-for-small-only">From the best vendors in the world.</p>
 			</div>
 			</a>
 			</div>
