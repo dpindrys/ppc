@@ -219,17 +219,18 @@ ul.off-canvas-list li a {
 
 	footer ul li{
 		padding-left: .4em;
-		list-style: none;
-		font-size: 2em;
-		border-bottom: 1px solid #666;
+		list-style: disc;
+		font-size: 1em;
+		
 			@media #{$medium-up} {
 				font-size: 1.4em;
 			}
 				@media #{$xlarge-up} {
-				font-size: 1.3em;
-				font-weight: 200;
+				font-size: 1.2em;
+				font-weight: 100;
 				letter-spacing: .1em;
 				line-height: 2;
+				padding: 0;
 			}
 	}
 

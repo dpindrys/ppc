@@ -62,7 +62,7 @@
         <div class="white">
         <div class="row interior">
             <div class="logo">
-              <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo-flush-right.png" class="logo"></a>
+              <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo-margin.png" class="logo"></a>
             </div>
             <div class="nav-wrap">
                 
