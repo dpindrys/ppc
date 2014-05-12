@@ -72,12 +72,24 @@
                   //  - Vendor information
                   foreach($products_in_sub_category as $p) {
                     $pc = get_post_complete($p->ID);
+                    $Q = new GetPostsQuery();
+                    $vendor_args = array();
+                    $vendor_args['post_type'] = 'vendor';
+                    $vendor_args['ID'] = $pc['vendor'];
+                    $results = $Q->get_posts($vendor_args);
+                    // $image = wp_get_attachment_image_src( $results[0]['vendor_logo'] );
                 ?>
                   <tr>
                     <td>
-                      <a href=" <?php echo $pc['URL']; ?> " target="_blank"> <?php echo $pc['post_title'] ?> </a> <br>
+                      <a href=" <?php echo $pc['URL']; ?> " target="_blank">
+                        <?php echo $pc['post_title']; ?>
+                      </a> <br>
                     </td>
-                    <td class="product-logo"><a href="#"><img class="product-logo" src="img/products/ARI/logo.png"></a></td>
+                    <td class="product-logo">
+                      <a href="<?php echo $results[0][URL]; ?>" target="_blank">
+                        <img class="product-logo" src="<?php echo wp_get_attachment_image_src( $results[0]['vendor_logo'] )[0];?>">
+                      </a>
+                    </td>
                   </tr>
                 <?php
                   } //  End of inner loop
@@ -86,6 +98,9 @@
               </table>
             <?php
             } //  End of outer loop
+              // $vendors = get_posts( array( 'post_type' => 'vendors', ID => $pc['vendor'] ) );
+              // print_custom_field('vendor_logo:to_image_tag');
+              // print_custom_field('URL');
         	} else {
       	?>
       		<table>
