@@ -226,7 +226,7 @@ ul.off-canvas-list li a {
 				font-size: 1.4em;
 			}
 				@media #{$xlarge-up} {
-				font-size: 1.2em;
+				font-size: 1.4em;
 				font-weight: 100;
 				letter-spacing: .1em;
 				line-height: 2;
@@ -255,8 +255,8 @@ ul.off-canvas-list li a {
 		text-decoration: underline;
 	}
 	footer hr {
-		border: solid #444;
-		border-width: 6px 0 0;
+		border: dashed #444;
+		border-width: 1px 0 0;
 		clear: both;
 		margin: .6rem 0 1.1875rem;
 		height: 0;
@@ -266,29 +266,47 @@ ul.off-canvas-list li a {
 	footer ol {
 		margin: 0em 0 2em 0;
 		border-radius:15px;
-		background-color: #444;
+		background-color: #333;
 		display: block;
-		padding: .2em;
+		padding: 0em;
 		list-style-type: decimal;
 		-webkit-margin-before: 0em;
-		-webkit-margin-after: 1em;
+		-webkit-margin-after: 0em;
 		-webkit-margin-start: 0px;
 		-webkit-margin-end: 0px;
-		-webkit-padding-start: 1em;
+		-webkit-padding-start: 0em;
+		}
+
+	footer ol li {
+		border-left: 4px solid $primary-color;
+		padding-left: 1em;
+	}
+
+		.entry-title .summary {
+		font-weight: 100;
 		}
 
 	.vevent .summary {
 		font-weight: 300;
 		}
 
-	footer h2 {
-		font-size: 1.6em;
+	footer h2{
+		font-size: 1.5em;
 		color: #ddd;
+		font-weight: 100;
 		line-height: 1.2
+	}
+
+	footer h4 {
+		font-size: 1em;
 	}
 
 	.tribe-event-widget-link p{
 		color: black;
+	}
+
+	footer .pull-left {
+		margin-top: .5em;
 	}
 /**
  * 3.0 Content
@@ -462,10 +480,13 @@ ul.off-canvas-list li a {
 }
 
 .search-button {
-	background-color: white;
+	margin: 0;
+	padding: 0;
 }
 
+.search-field {
 
+}
 
 .search-form {
 	padding: 0em;
