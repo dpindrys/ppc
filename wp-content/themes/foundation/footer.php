@@ -5,9 +5,13 @@
 <div class="row interior">
 	
 
-	<div class="medium-2 columns"><p>Home</p></div>
-	<div class="medium-2 columns"><p>About Us</p><hr></div>
-	<div class="medium-4 columns"><p>Products</p><hr></p><ul class="footer-list"><li>Agriculture</li><li>Golf</li><li>Irrigation</li><li>Waterworks</li></div>
+	<div class="medium-4 columns toppadding20"><i class="fa fa-home fa-2x pull-left"></i><h2>Home</h2><hr><i class="fa fa-users fa-2x pull-left"></i><h2>About Us</h2><hr><p></p><i class="fa fa-cogs fa-2x pull-left"></i><h2>Products</h2><hr class="show-for-small-only"></div>
+	<div class="medium-4 columns"><i class="fa fa-calendar fa-2x pull-left"></i><h2>Events</h2><?php the_widget( 'TribeEventsListWidget', $instance, $args ); ?><hr class="show-for-small-only"></div>
+	<div class="medium-4 columns"><i class="fa fa-microphone fa-2x pull-left"></i><h2>Contact Us</h2>
+								 <div class="row">
+								 <div class="medium-12 columns"><img src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/map.jpg"></div></div></div>
+	
+
 
 
 		<?php do_action('foundationPress_before_footer'); ?>

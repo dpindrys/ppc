@@ -24,6 +24,8 @@
     <!--link rel="stylesheet" href="<?php bloginfo('siteurl'); ?>/includes/css/app.css" /-->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/includes/css/app.css">
 
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
     <script type="text/javascript" src="//use.typekit.net/efa7oev.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     
@@ -44,7 +46,7 @@
 <div>
   <nav class="tab-bar show-for-small-only">
   <div class="medium-8 columns">
-    <a class="right-off-canvas-toggle"><section class="right-small menu-toggle-icon">
+    <a class="left-off-canvas-toggle"><section class="right-small menu-toggle-icon">
       MENU</a>
     </section>
     <section class="middle tab-bar-section">
@@ -54,7 +56,7 @@
     </section>
   </nav>
 
-  <aside class="right-off-canvas-menu">
+  <aside class="left-off-canvas-menu">
     <?php foundationPress_mobile_off_canvas(); ?>
   </aside>
   
@@ -62,7 +64,7 @@
         <div class="white">
         <div class="row interior">
             <div class="logo">
-              <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo-margin.png" class="logo"></a>
+              <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo-flush-right.png" class="logo"></a>
             </div>
             <div class="nav-wrap">
                 
@@ -97,13 +99,13 @@
 <div class="search-bar">
   <div class="row interior">
     <div class="small-12 medium-4 medium-offset-7 columns search-field">
-     
-        <input type="text" placeholder="Search"/>
+     <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
+        <input type="text" size="18" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" />
       </label>
      </div>
      <div class="small-12 medium-1 columns search-button">
-          <a href="#" class="button postfix">Go</a>
-        </div>
+          <input type="submit" id="searchsubmit" value="Search" class="button" />
+    </div>
     </form>
 </div>
 </div>

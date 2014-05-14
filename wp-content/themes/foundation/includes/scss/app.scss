@@ -12,14 +12,7 @@
 @import "type.scss"; // Type classes
 
 
-input[type="submit"] {
-	background-color: blue;
-	width: auto;
-	border: 0;
-	padding: 1em;
-	color: white;
-	font-size: 1em;
-}
+
 
 
 .product-sub {
@@ -168,17 +161,7 @@ table {
 	background-color: #fff;
 }
 
-.nomargin {
-	margin: 0;
-}
 
-.topmargin1 {
-	margin-top: 1em;
-}
-
-.toppadding1 {
-	padding-top: 1em;
-}
 
 .product-list {
 	margin-top: 2em;

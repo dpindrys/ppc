@@ -5,8 +5,8 @@
 <div class="row interior white toppadding1">
     <div class="medium-9 columns">
       
-      <h1><?php echo $page_title; ?></h1>
-      <hr>
+      <h1 class="hide-for-small-only"><?php echo $page_title; ?></h1>
+      <hr class="hide-for-small-only">
       <p <?php post_class(); ?> id="post-<?php the_TITLE(); ?>">
         <?php while (have_posts()) : the_post(); ?>
           <?php the_content(); ?>
