@@ -97,14 +97,14 @@
 <div class="small-8 white show-for-small-only text-right">
 <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img class="logo-mobile" src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo-mobile.png"></a></div>
 <div class="search-bar">
-  <div class="row interior">
-    <div class="small-12 medium-4 medium-offset-7 columns search-field">
+  <div class="row collapse interior">
+    <div class="small-9 medium-4 medium-offset-6 large-5 columns">
      <form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
         <input type="text" size="18" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" />
       </label>
      </div>
-     <div class="small-12 medium-1 columns search-button">
-          <input type="submit" id="searchsubmit" value="Search" class="button" />
+     <div class="small-3 medium-2 large-1 columns search-button">
+          <input type="submit" id="searchsubmit" value="Search" class="button postfix" />
     </div>
     </form>
 </div>

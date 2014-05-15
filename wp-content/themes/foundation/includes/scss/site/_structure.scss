@@ -127,6 +127,10 @@ h2.tribe-events-page-title {
 	font-size: rem-calc(44);
 }
 
+.footer-products {
+	margin-left: 1.8em;
+	padding: .3em;
+}
 
 /**
  * 2.0 Header, sidebar and footer
@@ -182,8 +186,8 @@ ul.off-canvas-list li a {
   	margin-bottom: 0;
   	font-family: "adelle-sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   	font-weight: 500;
-  	margin-left: -7px;
-  	padding-right: 1.4em;
+  	margin-left: 0px;
+  	padding-right: 1.3em;
   	z-index: 1;
   	
   }
@@ -266,7 +270,6 @@ ul.off-canvas-list li a {
 	footer ol {
 		margin: 0em 0 2em 0;
 		border-radius:15px;
-		background-color: #333;
 		display: block;
 		padding: 0em;
 		list-style-type: decimal;
@@ -291,9 +294,9 @@ ul.off-canvas-list li a {
 		}
 
 	footer h2{
-		font-size: 1.5em;
+		font-size: 1.2em;
 		color: #ddd;
-		font-weight: 100;
+		font-weight: 200;
 		line-height: 1.2
 	}
 
@@ -306,7 +309,7 @@ ul.off-canvas-list li a {
 	}
 
 	footer .pull-left {
-		margin-top: .5em;
+		margin-top: .4em;
 	}
 /**
  * 3.0 Content
@@ -382,6 +385,10 @@ ul.off-canvas-list li a {
 		background-color: rgba(0, 0, 0, .0255);
 		border: .1em solid $primary-color;
 }
+}
+
+.products p{
+	margin-left: 1em;
 }
 
 
@@ -479,20 +486,10 @@ ul.off-canvas-list li a {
 		}
 }
 
-.search-button {
-	margin: 0;
-	padding: 0;
+.collapse {
+	
 }
 
-.search-field {
-
-}
-
-.search-form {
-	padding: 0em;
-	margin-right: -1em;
-
-}
 
 .button {
 	margin: 0;
