@@ -94,7 +94,7 @@
   </div>
 </header>
 -->
-<div class="small-8 white show-for-small-only text-right">
+<div class="small-8 white show-for-small-only ">
 <a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><img class="logo-mobile" src="<?php bloginfo('url'); ?>/wp-content/themes/foundation/includes/assets/logo-mobile.png"></a></div>
 <div class="search-bar">
   <div class="row collapse interior">

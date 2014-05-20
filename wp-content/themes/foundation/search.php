@@ -25,6 +25,7 @@
 
 	</div>
 	<div class="toppadding1">
-	<?php get_sidebar(); ?>
+
+<?php get_sidebar(); ?> 
 		
 <?php get_footer(); ?>

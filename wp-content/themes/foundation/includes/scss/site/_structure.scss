@@ -41,6 +41,10 @@ h1 .title {
 }
 
 
+.home-hero span {
+	background-color: rgba(0, 0, 0, .5);
+	padding: 0 .2em;
+}
 .home-hero h1 {
 	font-weight: bold;
 	font-size: 1.8em;
@@ -50,6 +54,7 @@ h1 .title {
   	letter-spacing: .05em;
   	width: 100%;
   	margin: 0 0 2em 0;
+
   		@media #{$medium-up} {
   			color: white;
   			margin: 0;
@@ -219,18 +224,17 @@ ul.off-canvas-list li a {
 		padding: 1em;
 	}
 
-
+	footer ul
 
 	footer ul li{
-		padding-left: .4em;
-		list-style: disc;
+		list-style: circle;
 		font-size: 1em;
 		
 			@media #{$medium-up} {
 				font-size: 1.4em;
 			}
 				@media #{$xlarge-up} {
-				font-size: 1.4em;
+				font-size: 1em;
 				font-weight: 100;
 				letter-spacing: .1em;
 				line-height: 2;
@@ -238,9 +242,7 @@ ul.off-canvas-list li a {
 			}
 	}
 
-	footer ul li:hover {
-		background-color: #666;
-	}
+
 
 	footer {
 		line-height: 2;
@@ -338,12 +340,13 @@ ul.off-canvas-list li a {
 		@media #{$medium-up} {
 		padding: 0 1em .2em 1em;
 		text-align: center;
-		margin: 0em 0 0em 0;
+		margin: 1em 0 0em 0;
 		height: 100%;
 		border-bottom: .15em solid #ddd;
   }
   		@media #{$large-up} {
 		    padding: 1em;
+		    margin: 2em 0 0 0;
   }
 }
 
@@ -397,6 +400,7 @@ ul.off-canvas-list li a {
 
 
 
+
 /**
  * 3.1 Pages
  * ------------------------------------
@@ -411,15 +415,15 @@ ul.off-canvas-list li a {
 	margin-bottom: 2.5em;
 		@media #{$medium-up} {
 			outline: 1em solid $primary-color;
-		    height: 15em;
+		    height: 10em;
 		    display: block;
 		    float: none;
 		    background-size: cover;
 		    margin-top: 0;
-			background-image: url('../assets/childndad.jpg');
+			background-image: url('../assets/agriculture.jpg');
   }
   		@media #{$large-up} {
-		    height: 25em;
+		    height: 20em;
 		    display: block;
 		    padding-top: 3em;
 		    float: none;
@@ -448,11 +452,14 @@ ul.off-canvas-list li a {
 
 
 /**
- * 3.3 Widgets
+ * 3.3 Custom Post (Vendor/Product)
  * ------------------------------------
  */
 
-// Insert styles here
+.vendor-logo  {
+	max-width: 8em;
+	max-height: 5em;
+}
 
 
 /**

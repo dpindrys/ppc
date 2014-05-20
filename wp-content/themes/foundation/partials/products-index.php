@@ -87,7 +87,7 @@
                     </td>
                     <td class="product-logo">
                       <a href="<?php echo $results[0][URL]; ?>" target="_blank">
-                        <img class="product-logo" src="<?php echo wp_get_attachment_image_src( $results[0]['vendor_logo'] )[0];?>">
+                        <img class="vendor-logo" src="<?php echo wp_get_attachment_image_src( $results[0]['vendor_logo'] )[0];?>">
                       </a>
                     </td>
                   </tr>
